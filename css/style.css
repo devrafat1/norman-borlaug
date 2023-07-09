@@ -1,0 +1,87 @@
+/* Common Style */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Area */
+
+header{
+    position: relative;
+    text-align: center;
+    padding: 18px 0;
+    background-color: #f9f4f0;
+}
+
+h1{
+    font-size: 35px;
+}
+
+h1::after{
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 22.5%;
+    top: 56%;
+    left: 38.7%;
+    background-color: rgb(61, 54, 54);
+}
+
+p{
+    margin-top: 5px;
+    color: #888282;
+    font-size: 18px;
+}
+
+/* Main Area */
+
+main{
+    max-width: 1350px;
+    height: 90vh;
+    background-color: #eadccf;
+}
+
+.norman-img{
+    width: 100%;
+    text-align: center;
+    padding: 60px 60px 0px;
+}
+
+.norman-img img{
+    border: 1px solid #000;
+    border-radius: 4px;
+}
+
+main p{
+    text-align: center;
+    padding: 5px 20px;
+    width: 675px;
+    margin: 0 auto;
+    font-size: 14.5px;
+}
+
+/* Footer Area */
+
+footer{
+    max-width: 680px;
+    padding: 35px;
+    margin: 15px auto;
+}
+
+footer h3{
+    text-align: center;
+}
+
+footer ul{
+    width: 510px;
+    padding: 10px;
+    margin: 20px auto 0px;
+}
+
+footer ul li{
+    font-weight: 400;
+    padding: 5px 0px;
+    text-align: justify;
+}
